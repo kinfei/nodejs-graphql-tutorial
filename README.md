@@ -14,7 +14,7 @@ mutation{
 }
 ```
 
-`````bash
+```bash
 # Add Book
 mutation {
   addBook(name: "Book one", pages: 320, authorID: "618e794157ffc9c123f45da5") {
@@ -24,7 +24,7 @@ mutation {
 }
 ```
 
-````bash
+```bash
 # Query Book and it's author
 {
   book(id: "618e79fdda6166da6a8887a2") {
@@ -40,7 +40,7 @@ mutation {
 }
 ```
 
-````bash
+```bash
 # Query Books
 {
   books {
@@ -54,7 +54,6 @@ mutation {
     }
   }
 }
-
 ```
 
 ## Running the app
@@ -66,4 +65,4 @@ $ npm run start
 # watch mode
 $ npm run start:dev
 
-`````
+```
